@@ -13,7 +13,7 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Russell Patterson"
-    info = "Software Engineer, Cat Dad, Ally."
+    info = "Software Engineer / Tech Enthusiast / Ally"
     description = "Russell Patterson's personal website"
     keywords = "blog,developer,personal"
     avatarurl = "images/profile.jpeg"
@@ -68,10 +68,6 @@ pygmentscodefencesguesssyntax = true
     name = "Contact"
     weight = 4
     url = "/contact/"
-[[menu.main]]
-    name = "Simple Lookups API"
-    weight = 5
-    url = "/simplelookups-api/"
 
 [markup]
   [markup.highlight]
