@@ -9,9 +9,9 @@ url: /things-i-work-on/
 
 **Simple Lookups**
 
-Simple Lookups is a little .NET library that makes it incredibly easy to manage those "lookup" values, i.e. types of things. For example, if you have a database of "providers", you might also have a database table called "ProviderType" that has all the different types of providers that there are in your system. These tables often have the same structure (i.e., Name, Description, Code, Active) and can therefore be generically managed. Simple Lookups manages these types of tables with barely any code for you to write. All you need is a connection string, a blank derived class for each type that inherits from the Simple Lookups' Lookup type, and you're good to go. Also available on [NuGet](https://www.nuget.org/packages/SimpleLookups/).
+Simple Lookups is a little .NET library that makes it incredibly easy to manage those "lookup" values, i.e. types of things. For example, if you have a database of "providers", you might also have a database table called "ProviderType" that has all the different types of providers that there are in your system. These tables often have the same structure (i.e., Name, Description, Code, Active) and can therefore be generically managed. Simple Lookups manages these types of tables with barely any code for you to write. All you need is a connection string, a blank derived class for each type that inherits from the Simple Lookups' Lookup type, and you're good to go.
 
-Download Simple Lookups: [Latest | 2.0.1 (May 30, 2016)](http://simplelookups.com/releases/2.0.1/SimpleLookups-2.0.1.zip) | [Source on GitHub](https://github.com/rwpcpe/simple-lookups/) | [API Documentation](/simplelookups-api/) | [License](http://simplelookups.com/releases/License.txt)
+[Visit Official Website](https://www.simplelookups.com)
 
 **Alarm**
 

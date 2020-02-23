@@ -1,9 +1,9 @@
 ---
 author: "Russell Patterson"
-date: 2020-02-01 20:00:00+00:00
+date: 2020-02-22 20:00:00+00:00
 draft: false
-title: 'Life and Site Updates'
-url: /2020/03/life-and-site-updates/
+title: 'Site Updates'
+url: /2020/02/site-updates/
 categories:
 - General
 ---
