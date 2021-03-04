@@ -8,7 +8,7 @@ categories:
 - Alarm 3
 ---
 
-I am pleased to be releasing Alarm 3.5.11.  This version, while originally deemed a major update, has been downgraded minor update due to an overly-complicated update process between 3.5.10 and 3.5.11.  So, the new settings system is delayed for Alarm 4.0, as originally intended.  Having the new system in earlier 3.5.11 builds though has allowed me to fix a few issues with the system.
+I am pleased to be releasing Alarm 3.5.11.  This version, while originally deemed a major update, has been downgraded minor update due to an overly-complicated migration process between 3.5.10 and 3.5.11.  So, the new settings system is delayed for Alarm 4.0, as originally intended.  Having the new system in earlier 3.5.11 builds though has allowed me to fix a few issues with the system.
 
 Changes to 3.5.11 are as follows:
 * **Addition**: 2, 3, 4, 6, 8 Hour and Custom Quick Alarms. Thanks to Missy for the suggestion.

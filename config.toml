@@ -16,7 +16,7 @@ pygmentscodefencesguesssyntax = true
     info = "Software Engineer / Tech Enthusiast / Ally"
     description = "Russell Patterson's personal website"
     keywords = "blog,developer,personal"
-    avatarurl = "images/profile.jpeg"
+    avatarurl = "images/profile_picture.jpeg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
@@ -45,11 +45,6 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-gitlab fa-2x"
     weight = 2
     url = "https://gitlab.com/rwpcpe/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/rwpcpe/"
 
 # Menu links
 [[menu.main]]

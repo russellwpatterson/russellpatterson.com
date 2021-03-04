@@ -8,6 +8,6 @@ categories:
 - Alarm 3
 ---
 
-Ok, so today I released Alarm 3.5.1 which includes 2 bug fixes and a new feature called "Quick Alarm". This version also adds support for unprotected wma files.
+Ok, so today I released Alarm 3.5.1 which includes 2 bug fixes and a new feature called "Quick Alarm". This version also adds support for unprotected WMA files.
 
 Go get it!

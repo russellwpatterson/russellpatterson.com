@@ -18,16 +18,3 @@ Simple Lookups is a little .NET library that makes it incredibly easy to manage 
 Alarm is a PC-based alarm clock which includes many features common to actual alarm clocks. It was first developed when I was a freshman in college as a simple experiment in my new programming abilities. I've since added over 50 features and re-written it from the ground up to be super stable and reliable. It can play MP3/WMA/WAV files and it offers updates when they become available.
 
 Download Alarm: [Latest | 3.5.19 (January 10, 2016)](/apps/alarm/alarm-latest.exe) | Closed Source
-
-**Points Calculator**
-
-Points Calculator uses a well known weight loss formula to calculate how many "points" a certain food item is worth in a diet. It's open source. The formula is copyrighted by the company that created it. That's all I'm saying.
-
-Download Points Calculator: [Latest | 1.1 (November 10, 2013)](/apps/points/PointsCalculator-1.1.zip) | [Source on GitHub](https://github.com/rwpcpe/points-calculator/)
-
-**Cryptography Tools**
-
-Crypto Tools is a collection of tools that just take any file, and generate an MD5 or SHA256 checksum of that file. The tools are also open source and incredibly simple. They're clones of the tools in Linux, but they're written in C# and run on Windows. I suggest throwing them into your Windows directory or adding them to your PATH, but that's up to you.
-
-Download Cryptography Tools: [Latest | 1.1 (November 29, 2014)](/apps/crypto/cryptotools-1.1.zip) | [Source on GitHub](https://github.com/rwpcpe/ps-crypto)
-

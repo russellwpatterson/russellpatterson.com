@@ -20,7 +20,7 @@ First of all, a couple status updates on some things that I've been saying are "
 
    One of the things that I do want to do is update it to run on .NET Core 3. I think this will likely be a minor revision, not a 4.x version. More than likely it'll be v3.9 or something like that.
 
-   If I do get the time and focus to replatform it onto .NET Core, I will be willing to open source it. The shame in me won't let me release code that I started working on when I had -2 years of professional experience, but giving the codebase a once over with some re-architecting will make it "community ready".
+   If I do get the time and focus to re-platform it onto .NET Core, I will be willing to open source it. The shame in me won't let me release code that I started working on when I had -2 years of professional experience, but giving the codebase a once over with some re-architecting will make it "community ready".
 
 * **Simple Lookups 3**
 
@@ -38,7 +38,7 @@ First of all, a couple status updates on some things that I've been saying are "
 
    I made it about 50% through the development of a 1.0 version, but then I shelved it. I'm not sure that this will ever be released, and in fact, I'm only mentioning it so that I don't forget about it.
 
-* **Frusciante**
+* **Chron**
 
    I've worked a little bit on a simple git tagging tool that automatically increments and pushes a git tag to the remote. It's pretty heavily based on a solution we had at one of my clients, but I'm writing it from the ground up in C#. I'm thinking it'll be a few months on this one before I'm ready to release it.
 

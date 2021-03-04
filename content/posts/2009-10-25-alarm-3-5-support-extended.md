@@ -8,4 +8,4 @@ categories:
 - Alarm 3
 ---
 
-Today I noticed that a lot of people are still using pre-3.5.8 versions of Alarm so I decided to again support those versions.  Please upgrade them to 3.5.10!  I just set up the auto-update feature so that you can now upgrade from those versions again.
+Today I noticed that a lot of people are still using pre-3.5.8 versions of Alarm so I decided to support those versions again.  Please upgrade them to 3.5.10!

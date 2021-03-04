@@ -2,8 +2,8 @@
 author: "Russell Patterson"
 date: 2010-12-20 15:48:22+00:00
 draft: false
-title: Nighthawk Update
-url: /2010/12/nighthawk-update/
+title: Alarm 4 Update
+url: /2010/12/alarm-4-update-2/
 categories:
 - Alarm 4
 ---

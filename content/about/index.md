@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-I am a software developer in the Columbus, OH area, originally from Lima, OH. I graduated from Ohio Northern University in 2009 with a Bachelor of Science in Computer Engineering, and have been working in the technology field for over 11 years. I am very passionate about technology, and I am trying constantly to be the best that I can be.
+I am a software developer in the Columbus, OH area, originally from Lima, OH. I graduated from Ohio Northern University in 2009 with a Bachelor of Science in Computer Engineering, and have been working in the technology field for over 12 years. I am very passionate about technology, and I am trying constantly to be the best that I can be.
 
 I have been involved with projects of all sizes and shapes, using a wide breadth of technologies. While I’ve mainly been focused on the Microsoft world, I have also done some work in the past with various open source technologies and languages.
 
@@ -19,9 +19,11 @@ Some of my past professional projects include:
 * Pharmaceutical “formulary” management system for healthcare industry using ASP.NET MVC 5.2, SQL Server 2008 R2, jQuery, Angular, and WebAPI 2.
 * Legislative workflow application suite using Python, Django, and Linux.
 * Modernization of an insurance company's core business application into .NET from VB6.
+* Azure migration project for a state agency with over 100 .NET-based applications.
 
 Some of my personal projects include:
 
 * A PC-based Alarm clock, using C#, Windows Forms, and DirectSound.
 * A database library for managing lookup values, using C#, and SQL Server.
-* Diet “points” calculator, using C#, and Windows Forms.
+
+I'm married to a wonderful woman who teaches English at a local high school, and I have three cats (Avery, Polly, and Daisy) and a dog (Lilly). When I'm not writing code, I enjoy reading, running, playing some video games, and watching TV.

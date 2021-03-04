@@ -8,4 +8,4 @@ categories:
 - Alarm 3
 ---
 
-Today, I'm releasing Alarm 3.5.6.  Download it from the website or from the auto-update service.  This version contains 5 theme refreshes which should make them a bit easier to use.  Also, it contains about 2-3 bug fixes for bugs which have been there for a while.
+Today, I'm releasing Alarm 3.5.6.  Download it from the website or from the auto-update service.  This version contains 5 theme refreshes which should make them a bit easier on the eyes.  Also, it contains about 2-3 bug fixes for bugs which have been there for a while.
