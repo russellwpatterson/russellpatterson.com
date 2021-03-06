@@ -26,4 +26,4 @@ Some of my personal projects include:
 * A PC-based Alarm clock, using C#, Windows Forms, and DirectSound.
 * A database library for managing lookup values, using C#, and SQL Server.
 
-I'm married to a wonderful woman who teaches English at a local high school, and I have three cats (Avery, Polly, and Daisy) and a dog (Lilly). When I'm not writing code, I enjoy reading, running, playing some video games, and watching TV.
+I'm married to a wonderful woman who teaches English at a local high school, and I have three cats (Avery, Polly, and Daisy) and a dog (Lilly). When I'm not writing code, I enjoy reading, running, playing some video games, listening to music, and watching TV.
