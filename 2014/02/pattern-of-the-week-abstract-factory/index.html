@@ -1,0 +1,53 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Russell Patterson"><meta name=description content="Russell Patterson's personal website"><meta name=keywords content="blog,developer,personal"><meta name=twitter:card content="summary"><meta name=twitter:title content="Pattern of the Week: Abstract Factory"><meta name=twitter:description content="This is the fifth in a series of &ldquo;Pattern of the Week&rdquo; posts. I&rsquo;m primarily sticking with the Gang of Four patterns, but I may branch off occasionally. Thanks for reading.
+Type: Creational
+This week&rsquo;s pattern is the Abstract Factory pattern. To explain this, we must first understand the factory class.
+Factories create things, plain and simple. Whether we&rsquo;re talking about software development or retail, that is what they do. Factory classes typically look something like this:"><meta property="og:title" content="Pattern of the Week: Abstract Factory"><meta property="og:description" content="This is the fifth in a series of &ldquo;Pattern of the Week&rdquo; posts. I&rsquo;m primarily sticking with the Gang of Four patterns, but I may branch off occasionally. Thanks for reading.
+Type: Creational
+This week&rsquo;s pattern is the Abstract Factory pattern. To explain this, we must first understand the factory class.
+Factories create things, plain and simple. Whether we&rsquo;re talking about software development or retail, that is what they do. Factory classes typically look something like this:"><meta property="og:type" content="article"><meta property="og:url" content="/2014/02/pattern-of-the-week-abstract-factory/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2014-02-27T04:42:16+00:00"><meta property="article:modified_time" content="2014-02-27T04:42:16+00:00"><base href=/2014/02/pattern-of-the-week-abstract-factory/><title>Pattern of the Week: Abstract Factory · Russell Writes Code</title><link rel=canonical href=/2014/02/pattern-of-the-week-abstract-factory/><link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel=stylesheet><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.11.2/css/all.css integrity=sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin=anonymous><link rel=stylesheet href=/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=/img/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/img/favicon-16x16.png sizes=16x16><meta name=generator content="Hugo 0.81.0"></head><body class=colorscheme-light><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Russell Writes Code</a>
+<input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle><i class="fas fa-bars"></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/about/>About Me</a></li><li class=navigation-item><a class=navigation-link href=/posts/>Blog</a></li><li class=navigation-item><a class=navigation-link href=/things-i-work-on/>Things I Work On</a></li><li class=navigation-item><a class=navigation-link href=/contact/>Contact</a></li></ul></section></nav><div class=content><section class="container post"><article><header><div class=post-title><h1 class=title>Pattern of the Week: Abstract Factory</h1></div><div class=post-meta><div class=date><span class=posted-on><i class="fas fa-calendar"></i><time datetime=2014-02-27T04:42:16Z>February 27, 2014</time></span>
+<span class=reading-time><i class="fas fa-clock"></i>3-minute read</span></div><div class=categories><i class="fas fa-folder"></i><a href=/categories/pattern-of-the-week/>Pattern of the Week</a>
+<span class=separator>•</span>
+<a href=/categories/technical/>Technical</a></div></div></header><div><p><em>This is the fifth in a series of &ldquo;Pattern of the Week&rdquo; posts. I&rsquo;m primarily sticking with the <a href="http://www.amazon.com/gp/product/B000SEIBB8/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000SEIBB8&linkCode=as2&tag=russepatte-20">Gang of Four</a> patterns, but I may branch off occasionally. Thanks for reading.</em></p><p>Type: <strong>Creational</strong></p><p>This week&rsquo;s pattern is the Abstract Factory pattern. To explain this, we must first understand the <strong>factory class</strong>.</p><p>Factories create things, plain and simple. Whether we&rsquo;re talking about software development or retail, that is what they do. Factory classes typically look something like this:</p><pre><code>public ISomething CreateSomething()
+{
+    return new ConcreteSomething();
+}
+</code></pre><p>The method creates an instance of its favorite implementation of the interface that is returned. Obviously, with a simple code change, you could swap out &ldquo;ConcreteSomething&rdquo; for &ldquo;SpecialSomething&rdquo; and your code would still work, assuming of course that those are both implementations of <em>ISomething</em>. This is a central idea of a SOLID principle, called the <a href=http://en.wikipedia.org/wiki/Liskov_substitution_principle>Liskov Substitution Principle</a>. Basically, we should be able to swap out an implementation of an interface without breaking our code, or changing the behavior of the application, i.e., post-conditions of using the interface should be the same no matter the implementation that we use. Now that we&rsquo;ve talked about Factories and <a href=http://en.wikipedia.org/wiki/Barbara_Liskov>Barbara Liskov</a>, let&rsquo;s go back to the pattern at hand.</p><p>The Abstract Factory pattern can be used when you want to define different versions of the same <em>family</em> of interfaces in your application. You know that you need certain objects that implement certain interfaces, but you might need to swap out which ones you use depending on a number of factors (which OS, database server, etc.). The implementation of certain interfaces that you end up using is completely dependent on what implementation of the factory you&rsquo;re using. Here&rsquo;s an abstract factory interface, which creates clothes (kind of like a real factory!):</p><pre><code>public interface IClothesFactory
+{
+    IShirt CreateShirt();
+    IPants CreatePants();
+}
+</code></pre><p>This interface defines two methods: CreateShirt(), and CreatePants(). These methods return IShirt and IPants respectively. Let&rsquo;s look at those interfaces:</p><pre><code>public interface IShirt
+{
+    void DescribeShirt();
+}
+
+public interface IPants
+{
+    void DescribePants();
+}
+</code></pre><p>Alright, so we now have defined our interfaces that we will use in the factory. So what do we do next? Well, an interface is fairly useless without implementations, so let&rsquo;s create some. Here is a DressClothesFactory:</p><pre><code>public class DressClothesFactory : IClothesFactory
+{
+    public IShirt CreateShirt()
+    {
+        return new DressShirt();
+    }
+
+    public IPants CreatePants()
+    {
+        return new DressPants();
+    }
+}
+</code></pre><p>Simple enough, right? The factory defines the CreateShirt() method as returning a <em>DressShirt</em>, which is an implementation of <em>IShirt</em>, and it defines CreatePants() as returning <em>DressPants</em>, which is an implementation of <em>IPants</em>. We could also define a <em>CasualClothesFactory</em> which would return a T-Shirt and Jeans respectively.</p><p>The real power of this is when we define a method or class that takes an abstract factory implementation, and uses it to instantiate the classes that it needs. For example, let&rsquo;s look at the ShowWhatAmIWearingToday() method:</p><pre><code>private void ShowWhatAmIWearingToday(IClothesFactory factory)
+{
+    Console.WriteLine(&quot;Here's what I'm wearing today:&quot;);
+
+    var shirt = factory.CreateShirt();
+    shirt.DescribeShirt();
+
+    var pants = factory.CreatePants();
+    pants.DescribePants();
+}
+</code></pre><p>We know ahead of time that we need to get a shirt and get pants, but we don&rsquo;t really care if it&rsquo;s a casual day or a dress-up day. We still need those two things no matter what, the only difference is what specific family of IShirt/IPants we&rsquo;re using.</p><p>This is pretty much all there is to this pattern. If you need additional help, please take a look at the full source code below, or feel free to comment, and I&rsquo;ll respond directly.</p><p>Visit next week for an explanation of the Proxy pattern.</p><p><a href=https://github.com/rwpcpe/pattern-of-the-week/>View Sample Code</a></p></div><footer></footer></article><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script type=text/javascript async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script><script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js id=MathJax-script></script><script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}}</script></section></div><footer class=footer><section class=container><p>Not a strong bowler.</p>© 2008 - 2021
+Russell Patterson</section></footer></main></body></html>
