@@ -13,7 +13,7 @@ _This is the fourth in a series of "Pattern of the Week" posts. I'm primarily st
 
 Type: **Behavioral**
 
-This week's pattern is the Template Method pattern. This pattern allows you to define a set of algorithms that follow the same procedure, but that might have certain parts that differ. For this pattern, I'm borrowing heavily from my post on the [Strategy Pattern](http://russellwritescode.com/2014/02/pattern-of-the-week-3-strategy/), so if you haven't read it yet, you should read that one first.
+This week's pattern is the Template Method pattern. This pattern allows you to define a set of algorithms that follow the same procedure, but that might have certain parts that differ. For this pattern, I'm borrowing heavily from my post on the [Strategy Pattern](http://russellpatterson.com/2014/02/pattern-of-the-week-3-strategy/), so if you haven't read it yet, you should read that one first.
 
 Alright, let's look at a template method:
  
@@ -93,4 +93,4 @@ This is pretty much all there is to the Template Method pattern. If you need add
 
 Visit next week for an explanation of the Abstract Factory pattern.
 
-[View Sample Code](https://github.com/rwpcpe/pattern-of-the-week/)
+[View Sample Code](https://github.com/russellwpatterson/pattern-of-the-week/)

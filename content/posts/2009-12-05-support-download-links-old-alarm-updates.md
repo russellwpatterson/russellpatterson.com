@@ -12,13 +12,13 @@ categories:
 I've changed the main Alarm support email address.
 
 You can now receive support by sending a message to:
-support@russellwritescode.com
+support (AT) russellpatterson.com
 
 ---
 I've decided that in order to have a more consistent experience for those who would like to add a link to the Alarm installer on their website, I will have a permanent location for the latest version of Alarm.  This location will always be available as long as this site is online so that download links will not be broken and people are guaranteed to get the absolute latest version of Alarm when they download it.
 
 The address is:
-http://russellwritescode.com/alarm/alarm-latest.exe
+http://russellpatterson.com/alarm/alarm-latest.exe
 
 Please use this address whenever you link to the installer.
 

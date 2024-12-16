@@ -107,4 +107,4 @@ This pattern may look very familiar to those of us who use [Dependency Injection
 
 That’s all! Visit next week for an explanation of the Template Method pattern.
 
-[View Sample Code](https://github.com/rwpcpe/pattern-of-the-week/)
+[View Sample Code](https://github.com/russellwpatterson/pattern-of-the-week/)

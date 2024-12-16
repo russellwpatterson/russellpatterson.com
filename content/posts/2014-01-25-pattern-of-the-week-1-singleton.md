@@ -181,4 +181,4 @@ To make this useful, you would simply add properties to the Singleton class, the
 
 That's all! Visit next week for an explanation of the Decorator pattern.
 
-[View Sample Code](https://github.com/rwpcpe/pattern-of-the-week/)
+[View Sample Code](https://github.com/russellwpatterson/pattern-of-the-week/)

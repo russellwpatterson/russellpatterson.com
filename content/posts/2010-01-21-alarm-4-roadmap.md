@@ -19,6 +19,6 @@ Today I put together an aggressive roadmap to get Alarm 4 out the door by April 
 * RC 2: March 26, 2010 - Final Fixes and Changes
 * 4.0.0: April 2, 2010
 
-As I have done in the past, the first patch version (4.0.1) will be released about a week later with following updates about every month or so.  The alpha versions will go out only to testers.  If you would like to become a tester, please send an email to support@russellwritescode.com and I will add you to my list.
+As I have done in the past, the first patch version (4.0.1) will be released about a week later with following updates about every month or so.  The alpha versions will go out only to testers.  If you would like to become a tester, please send an email to support (AT) russellpatterson.com and I will add you to my list.
 
 EDITED ON JANUARY 31, 2010: Pushed back a couple dates due to unforeseen issues.

@@ -118,4 +118,4 @@ You may be asking yourself, "that's good and all, but when do I use it?" Well, t
 
 That’s all! Visit next week for an explanation of the Strategy pattern.
 
-[View Sample Code](https://github.com/rwpcpe/pattern-of-the-week/)
+[View Sample Code](https://github.com/russellwpatterson/pattern-of-the-week/)

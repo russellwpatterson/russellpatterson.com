@@ -102,4 +102,4 @@ This is pretty much all there is to this pattern. If you need additional help, p
 
 Visit next week for an explanation of the Proxy pattern.
 
-[View Sample Code](https://github.com/rwpcpe/pattern-of-the-week/)
+[View Sample Code](https://github.com/russellwpatterson/pattern-of-the-week/)

@@ -76,10 +76,10 @@ Now that we have the builder ready to create shirts, what do we need to do now? 
 
 The shirt variable above now has a fully initialized Shirt object with all of the parameters that you wanted. It's ready to use.
 
-The question is: when should I use this? You should use this pattern when you need to specify a lot of details about the object you're creating. If you just need an object, with maybe one or two properties that need initialized, you should consider using the [Abstract Factory](http://russellwritescode.com/2014/02/pattern-of-the-week-5-abstract-factory/) pattern or a simple copy constructor instead. If there are a ton of things that you need to set on the object, Builder is the way to go.
+The question is: when should I use this? You should use this pattern when you need to specify a lot of details about the object you're creating. If you just need an object, with maybe one or two properties that need initialized, you should consider using the [Abstract Factory](http://russellpatterson.com/2014/02/pattern-of-the-week-5-abstract-factory/) pattern or a simple copy constructor instead. If there are a ton of things that you need to set on the object, Builder is the way to go.
 
 This is pretty much all there is to this pattern. If you need additional help, please take a look at the full source code below, or feel free to comment, and I'll respond directly.
 
 Visit next week for an explanation of another pattern.
 
-[View Sample Code](https://github.com/rwpcpe/pattern-of-the-week/)
+[View Sample Code](https://github.com/russellwpatterson/pattern-of-the-week/)

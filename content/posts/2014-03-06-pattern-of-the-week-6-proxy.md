@@ -76,10 +76,10 @@ Now, suppose I want to make sure that not everyone has access to the GetStrings 
 
 The proxy implements the same interface as the original class. This means that you should be able to swap the proxy for the original object with minimal code changes. So how does this all work? Basically, we would use the Proxy to access the object, and if the user doesn't have access (which we're not checking here), a SecurityException will be thrown, preventing access to the underlying resource. Obviously, in a real-world use of this pattern, you would actually check the user's permissions in the ValidateAccess method (and always remember to default to least privilege on errors).
 
-You may notice that this pattern is fairly similar to the [Decorator](http://russellwritescode.com/2014/02/pattern-of-the-week-2-decorator/) pattern. The difference between the two, as far as I can tell, is that the Proxy actually owns the object that it is adding functionality to (it creates it), while the Decorator has the object passed in as a parameter in the constructor.
+You may notice that this pattern is fairly similar to the [Decorator](http://russellpatterson.com/2014/02/pattern-of-the-week-2-decorator/) pattern. The difference between the two, as far as I can tell, is that the Proxy actually owns the object that it is adding functionality to (it creates it), while the Decorator has the object passed in as a parameter in the constructor.
 
 This is pretty much all there is to this pattern. If you need additional help, please take a look at the full source code below, or feel free to comment, and I'll respond directly.
 
 Visit next week for an explanation of the Prototype pattern.
 
-[View Sample Code](https://github.com/rwpcpe/pattern-of-the-week/)
+[View Sample Code](https://github.com/russellwpatterson/pattern-of-the-week/)

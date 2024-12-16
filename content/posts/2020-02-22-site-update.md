@@ -42,7 +42,7 @@ First of all, a couple status updates on some things that I've been saying are "
 
    I've worked a little bit on a simple git tagging tool that automatically increments and pushes a git tag to the remote. It's pretty heavily based on a solution we had at one of my clients, but I'm writing it from the ground up in C#. I'm thinking it'll be a few months on this one before I'm ready to release it.
 
-* **RussellWritesCode.com**
+* **RussellPatterson.com**
 
    I've spent a bit of time over the last couple weeks to bring over all of my previous content from my old blog into this format. I believe things came over, but there's always a chance it didn't. If you see something, say something.
 
