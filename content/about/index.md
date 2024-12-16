@@ -2,7 +2,7 @@
 title: "About Me"
 ---
 
-I am a software developer in the Columbus, OH area, originally from Lima, OH. I graduated from Ohio Northern University in 2009 with a Bachelor of Science in Computer Engineering, and have been working in the technology field for over 12 years. I am very passionate about technology, and I am trying constantly to be the best that I can be.
+I am a software developer in the Columbus, OH area, originally from Lima, OH. I graduated from Ohio Northern University in 2009 with a Bachelor of Science in Computer Engineering, and have been working in the technology field for over 15 years. I am very passionate about technology, and I am trying constantly to be the best that I can be.
 
 I have been involved with projects of all sizes and shapes, using a wide breadth of technologies. While I’ve mainly been focused on the Microsoft world, I have also done some work in the past with various open source technologies and languages.
 
@@ -20,10 +20,13 @@ Some of my past professional projects include:
 * Legislative workflow application suite using Python, Django, and Linux.
 * Modernization of an insurance company's core business application into .NET from VB6.
 * Azure migration project for a state agency with over 100 .NET-based applications.
+* Insurance policy system for an insurance startup, focusing mainly on onboarding of new markets, using Ruby on Rails, React, and AWS.
+* Modernization of outdated Python 2.7/Django 1.8 legislative application suite onto modern Python 3.11 and Django 4.2.
+* Rearchitecture of legislative data services to provide maximum uptime and speed using Redis and Django REST Framework.
 
 Some of my personal projects include:
 
 * A PC-based Alarm clock, using C#, Windows Forms, and DirectSound.
 * A database library for managing lookup values, using C#, and SQL Server.
 
-I'm married to a wonderful woman who teaches English at a local high school, and I have three cats (Avery, Polly, and Daisy) and a dog (Lilly). When I'm not writing code, I enjoy reading, running, playing some video games, listening to music, and watching TV.
+I'm married to a wonderful woman who teaches English at a local high school, and I have three cats (Avery, Polly, and Daisy) and a dog (Lilly). In 2022, we welcomed a baby boy who has been an incredible addition to our lives. When I'm not writing code, I enjoy reading, running, playing some video games, listening to music, and watching TV.
